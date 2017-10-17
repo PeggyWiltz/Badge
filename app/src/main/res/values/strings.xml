@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Behind The Badge</string>
+    <string name="are_you_available_in_the_next_few_days">Are you available in the next few days?</string>
+    <string name="main_message_tab">Send Message</string>
+    <string name="main_response_tab">Responses</string>
+    <string name="main_response_tab_content_desc">View responses</string>
+    <string name="send_message">Send Message</string>
+    <string name="send_a_message_to_all_users">Send a message to all users</string>
+    <string name="title_activity_splash">Splash</string>
+
+</resources>

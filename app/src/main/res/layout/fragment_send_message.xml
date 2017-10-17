@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="Send a message to all users"
+    android:orientation="vertical"
+    tools:context="com.behindthebadge.android.badge.SendMessageFragment">
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/send_message_button"-->
+        <!--android:contentDescription="@string/send_a_message_to_all_users"-->
+        <!--android:clickable="true" -->
+        <!--/>-->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/send_message_button"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</LinearLayout>

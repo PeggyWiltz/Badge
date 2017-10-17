@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <gradient
+        android:startColor="@color/tentativeStart"
+        android:endColor="@color/tentativeEnd"
+        android:centerY="25%"
+        android:centerX="60%"
+
+        android:gradientRadius="40"
+        android:type="radial"/>
+
+    <size
+        android:width="40dp"
+        android:height="40dp"/>
+
+    <stroke
+        android:color="@color/buttonBorder"
+        android:width="1px"/>
+</shape>

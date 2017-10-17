@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3a4c62</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3a4c62</color>
+    <color name="buttonBorder">#000000</color>
+    <color name="availableStart">#25F01F</color>
+    <color name="availableEnd">#327030</color>
+    <color name="notAvailableStart">#FF4C4C</color>
+    <color name="notAvailableEnd">#7f0000</color>
+    <color name="tentativeStart">#F2EE7E</color>
+    <color name="tentativeEnd">#C7BF00</color>
+    <color name="noResponseStart">#bbbbbb</color>
+    <color name="noResponseEnd">#777777</color>
+
+    <color name="textColorPrimary">#9eb4b9</color>
+
+</resources>

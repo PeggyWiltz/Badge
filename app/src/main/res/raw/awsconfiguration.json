@@ -1,0 +1,1 @@
+{"UserAgent":"MobileHub/1.0","Version":"1.0","CredentialsProvider":{"CognitoIdentity":{"Default":{"PoolId":"us-west-2:a593e121-c2c3-460d-8f5f-5bf20d85c48c","Region":"us-west-2"}}},"IdentityManager":{"Default":{}},"DynamoDBObjectMapper":{"Default":{"Region":"us-west-2"}}}

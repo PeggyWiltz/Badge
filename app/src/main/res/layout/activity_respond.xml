@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.badge.android.behindthebadge.screens.RespondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#21234F">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/are_you_available_in_the_next_few_days"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/not_available_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/not_available_circle_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="2dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/tentative_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tentative_circle_button"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAYBE"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:padding="2dp"
+            android:textColor="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/available_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/available_circle_button"
+            android:layout_gravity="center_horizontal"
+            android:tag="Yes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YES"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="2dp"
+            android:textColor="#ffffff"/>
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
