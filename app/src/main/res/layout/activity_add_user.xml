@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.behindthebadge.android.badge.screens.AddUserActivity">
+
+    <LinearLayout
+        android:id="@+id/add_user_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/add_user_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Responder name:"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/add_user_layout">
+
+    <EditText
+        android:id="@+id/add_phone_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number:"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_user_button"
+        android:text="Add New Responder"
+        app:layout_constraintTop_toBottomOf="@id/add_phone_layout"/>
+
+</android.support.constraint.ConstraintLayout>

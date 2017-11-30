@@ -22,14 +22,5 @@ public class Application extends MultiDexApplication {
 
     private void initializeApplication() {
 
-        AWSConfiguration awsConfiguration = new AWSConfiguration(getApplicationContext());
-
-        // If IdentityManager is not created, create it
-        if (IdentityManager.getDefaultIdentityManager() == null) {
-            IdentityManager identityManager =
-                    new IdentityManager(getApplicationContext(), awsConfiguration);
-            IdentityManager.setDefaultIdentityManager(identityManager);
-        }
-
     }
 }

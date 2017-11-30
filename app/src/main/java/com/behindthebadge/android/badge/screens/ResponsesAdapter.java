@@ -36,6 +36,8 @@ public class ResponsesAdapter extends ArrayAdapter<ResponseModel> {
         demoResponses.add(new ResponseModel("Opus", "GOP", ResponseModel.ResponseStatus.NO));
         demoResponses.add(new ResponseModel("Roscoe P. Coltrane", "Hazzard County Sherriff", ResponseModel.ResponseStatus.NOT_RESPONDED));
 
+
+
         responses = demoResponses.toArray(new ResponseModel[demoResponses.size()]);
     }
 

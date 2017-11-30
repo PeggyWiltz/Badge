@@ -17,19 +17,10 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        setTitle(R.string.title_application);
 
-        Context appContext = getApplicationContext();
-        AWSConfiguration awsConfig = new AWSConfiguration(appContext);
-        IdentityManager identityManager = new IdentityManager(appContext, awsConfig);
-        IdentityManager.setDefaultIdentityManager(identityManager);
         final Activity self = this;
-        identityManager.doStartupAuth(this, new StartupAuthResultHandler() {
-            @Override
-            public void onComplete(StartupAuthResult startupAuthResult) {
-                Intent startIntent = new Intent(self, MainActivity.class);
-                startActivity(startIntent);
-            }
-        });
-
+        Intent startIntent = new Intent(self, MainActivity.class);
+        startActivity(startIntent);
     }
 }

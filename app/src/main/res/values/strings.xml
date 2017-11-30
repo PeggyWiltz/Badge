@@ -7,5 +7,6 @@
     <string name="send_message">Send Message</string>
     <string name="send_a_message_to_all_users">Send a message to all users</string>
     <string name="title_activity_splash">Splash</string>
+    <string name="title_application">Behind the Badge</string>
 
 </resources>

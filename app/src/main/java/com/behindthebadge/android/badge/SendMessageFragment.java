@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 
 /**
@@ -13,6 +14,7 @@ import android.view.ViewGroup;
  */
 public class SendMessageFragment extends Fragment {
 
+    private ImageButton sendMessageBtn;
 
     public SendMessageFragment() {
         // Required empty public constructor
@@ -23,7 +25,17 @@ public class SendMessageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_send_message, container, false);
+        final View layout = inflater.inflate(R.layout.fragment_send_message, container, false);
+
+        sendMessageBtn = layout.findViewById(R.id.send_message_btn);
+        sendMessageBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        return layout;
     }
 
 }
